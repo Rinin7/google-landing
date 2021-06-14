@@ -1,4 +1,5 @@
 import React from "react";
+import "./Header.scss";
 import AppIcon from "../../assets/icons/appsicon.png";
 
 function Header() {
@@ -8,12 +9,12 @@ function Header() {
         <a className="header__title">About</a>
         <a className="header__title">Store</a>
       </div>
-      <div className="header__business">
+      <div className="header__personal">
         <a className="header__title">Gmail</a>
         <a className="header__title">Images</a>
         <img className="header__icon" src={AppIcon} alt="nine dots structured three by three to signify apps icon" />
         <img
-          class="gb_Ca gbii"
+          class="header__portrait"
           src="https://lh3.googleusercontent.com/ogw/ADea4I5uYxazV7kvvXCvGUM73w4U2hiTg9gC5cCF32YA=s32-c-mo"
           srcset="https://lh3.googleusercontent.com/ogw/ADea4I5uYxazV7kvvXCvGUM73w4U2hiTg9gC5cCF32YA=s32-c-mo 1x, https://lh3.googleusercontent.com/ogw/ADea4I5uYxazV7kvvXCvGUM73w4U2hiTg9gC5cCF32YA=s64-c-mo 2x "
           alt="google profile picture of Ryan Doubinin"
